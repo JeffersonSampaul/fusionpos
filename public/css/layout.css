@@ -1,0 +1,584 @@
+.navbar-fixed-top{
+	border-bottom:3px solid #47b861;
+}
+.header .nav-item-child{
+	color:#31a649;
+}
+body{
+	padding-top:61px;	
+}
+.footer{
+	padding: 9px 5px;
+}
+.page-title{
+	display:none;
+}
+.navbar-fixed-top{
+	background:#fff;
+}
+.new-count{
+	position: fixed;
+	/*margin-top: -10px;
+	margin-left: -3px;*/
+	font-weight: bold;
+	color: yellow;
+	top: 7px;
+	left: 31px;
+}
+.new-notification{
+	position: absolute;
+	color: red;
+	margin-top: 19px;
+	font-size: 20px;
+	cursor:pointer;
+}
+audio,.new-notification{
+	display:none;
+}
+.hiddenframe{
+	display:none;
+}
+.close_block{
+		display:none;
+	}
+	.logo_image{
+		display:none;
+	}
+@media screen and (max-width: 991px){
+	
+	.page-title{
+		display:block;
+	}
+	body{
+	padding-top:60px;	
+	}
+	.navbar-fixed-top{
+	background:#47b861;
+	}
+	.header .nav-item-child{
+	color:gray;
+	}
+	.header .navbar-toggle .toggle-icon,.header .navbar-toggle .toggle-icon::after, .header .navbar-toggle .toggle-icon::before{
+		background:#fff;
+		width:100%;
+		height:3px;
+	}
+	.header .navbar-toggle:hover .toggle-icon,.header .navbar-toggle:hover .toggle-icon::after, .header .navbar-toggle:hover .toggle-icon::before{
+		background:#fff;
+		width:100%;
+		height:3px;
+	}
+	.header .nav-item-hover::after{
+		background:#fff;
+	}
+	.header .navbar-toggle .toggle-icon::after{
+		top:-7px;
+	}
+	.header .navbar-toggle .toggle-icon::before{
+		bottom:14px;
+	}
+	.container{
+		width:100%;
+		padding:0px;
+	}
+	.header .navbar-nav .nav-item{
+		border-top:1px solid gray;
+	}
+	.menu-container{
+		padding: 0px 15px;
+	}
+	.content{
+		padding: 0px 15px;
+	}
+	.nav-collapse .menu-container{
+		padding:0px;
+	}
+	.page-title{
+	margin: 0 auto;
+	max-width: 200px;
+	text-align: center;
+	padding: 30px;
+	font-size: 18px;
+	color: #fff;
+	text-decoration: underline;
+	}
+	.header .navbar-toggle {
+	margin: 15px 0;	
+	padding-top: 8px;
+	}
+	.header .logo {
+		display:none;
+	}
+	.page-title{		
+		padding: 16px 0px 0px 0px;
+	}
+	.header .navbar > .container > .nav-collapse {
+	top:0;
+	background:#fff;
+	position: fixed;	
+	height:100%;
+	left:0px;
+	}
+	.close_block{
+		margin: 7px auto;
+		width: 140px;
+		border: 1px solid gray;
+		border-radius:5px;
+		display:block;
+	}
+	.logo_image{
+		padding-top:10px;
+		display:block;
+	}
+}
+.orders-list{	
+	margin: 35px -15px 0px -15px;
+	padding: 1px 0px 1px 0px;
+}
+.order{
+	margin: 4px 0px 3px 0px;
+	background: #fff;
+	padding: 9px 0px;
+	line-height:1.3em;
+	cursor:pointer;
+	width:100%;
+}
+.customer-det{
+	display:table;
+	line-height: 2.5em;
+	width:100%;
+}
+.green{
+	color:green !important;
+}
+.blue{
+	color:#5f9ded!important;
+}
+.red{
+	color:red !important;
+}
+.gray{
+	color:gray !important;
+}
+.light-gray{
+	color:#939393  !important;
+}
+.tbl-row{
+	border-bottom:1px solid #ddd;
+}
+.warning{
+color:#f0ad4e!important;
+}
+.order .order-type{
+	background: #667280;
+	color: #fff;
+	border-radius: 50%;
+	width: 20px;
+	position: absolute;
+	margin: -6px 3px;
+	padding-top:1px;
+}
+.order-info{
+	display: table-cell;
+	vertical-align: middle;
+	padding: 0px;	
+	text-align: center;	
+	
+}
+.tbl-row{
+	display:table-row;
+	width:100%;
+}
+.receipt h3{
+	font-size: 18px;
+	margin-bottom: 0px;
+	background: #f0eef3;
+}
+.tbl-row .icons{
+	display:table-cell;
+	padding-left:5px;
+	border-bottom:1px solid #ddd;
+	width:10%;
+}
+.tbl-row .info{
+	display:table-cell;
+	padding-left:5px;
+	border-bottom:1px solid #ddd;
+}
+.order .order-hide{
+	margin-right: 10px;
+	color: red;
+	position: absolute;
+	right: 0;
+	margin-top: -5px;
+}
+.order-info .fa{
+	border: 1px solid #ddd;
+	border-radius: 50%;
+	padding:10px;
+}
+
+.second{
+	display: table-cell;	
+}
+.second .fa{
+	font-size:12px !important;
+}
+.order .customer-name{
+padding-right: 50px;
+}
+.order .time{
+font-size: 12px;
+color: #bcbcc2;
+}
+.order .amount{
+float: right;
+padding-right: 5px;
+}
+.order .postcode{
+text-transform: uppercase;
+}
+.order .show-btn,.order .hide-order{
+	float: right;
+	padding: 4px 10px;
+	background: #667280;
+	color: #fff;
+	font-style: normal;
+	margin-top: -5px;
+	border-radius:5px;
+}
+.order .hide-order{
+	background: #e8335d;
+	margin-left: 6px;
+}
+.bill-action-block {
+	padding:5px;
+}
+.order .fa{
+	font-size:20px;
+	color:#817b7b;
+}
+.actions i{
+	cursor:pointer;
+}
+.receipt{
+	background: #fff;	
+	margin: 5px -8px;
+	position: fixed;
+	top: 0px;
+	z-index: 1030;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	padding: 10px;
+	margin:0px;
+	padding-top:60px;
+	cursor:default;
+	overflow-y:scroll;
+}
+.map-block{
+	background: #fff;	
+	position: fixed;
+	top: 0px;
+	z-index: 1031;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	margin:0px;
+	cursor:default;	
+	display:none;
+}
+.map-block iframe{
+	width:100vw;
+	height:100vh;
+	border-style:none;
+}
+.receipt .item{	
+	padding: 5px;
+	border-bottom:1px solid #667280;
+	padding-right: 8px;
+}
+.receipt .item-name{
+	padding-right: 80px;
+}
+.receipt .price{	
+	float:right;
+}
+.receipt .addon-name{
+padding-right: 75px;
+padding-left: 5px;
+}
+.receipt .subtotal .desc,.receipt .total .desc{
+	padding-right:80px;
+}
+.receipt .subtotal,.receipt .total{
+	padding: 5px;	
+	padding-right: 8px;
+}
+.receipt .total{	
+	border-top:1px solid #667280;
+}
+.receipt .paid{
+	text-align:center;
+	width:100%;
+	position:absolute;
+	margin-top:-10px;
+	
+}
+.receipt .paid img{
+	width:85px;
+	
+}
+.receipt{
+	padding-bottom:60px;
+	display:none;
+}
+.actions.fixed{
+text-align: center;
+padding: 0px;
+margin: 0px -10px;
+position: fixed;
+bottom: 0px;
+width: 100%;
+background: #ddd;
+z-index: 100;
+}
+.actions.fixed div{
+	padding:0px;
+}
+.actions.fixed div span{
+	border-radius:0px;
+}
+.bill-action-block{
+	text-align:center;
+	background:#fff;
+}
+.bill-action-block .btn{
+	color:#fff;
+}
+.modal-backdrop.in{
+	opacity:0;
+}
+.modal-content {
+	border-radius:0px;
+	border-color:#667280;
+}
+footer{
+	position:relative;
+	bottom:0;
+	width:100%;
+}
+.rejected-order{
+	background:#5ca0eb;
+}
+.cooktime-btn {
+    background: #63b663;   
+    line-height: 2.5em;
+    margin: 2px;
+    width: 77px;
+    color: #fff;
+	float:left;
+	cursor:pointer;
+}
+.tat-time{
+	color: #000;
+	border: 1px solid #000;
+	border-radius: 50%;
+	text-align: center;
+	padding: 0px 4px;
+	margin-left: 15px
+}
+.orders-nav{
+	width:100vw;
+	background:#fff;	
+	text-align:center;	
+	position:fixed;
+	margin-top:-35px;
+}
+.orders-nav div{
+	padding:8px 0px;
+	cursor:pointer;
+}
+.orders-nav div.active{
+	border-bottom:2px solid #47b861;
+}
+body{
+	background:#ededed;
+}
+nav.navbar{
+	border-bottom:0px !important;
+}
+.receiptnav{
+	padding:20px 12px;
+	text-align: center;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background: #47b861;
+    margin: 0px -10px;
+    color: #fff;
+	z-index:1000;
+
+}
+.receiptnav div a{
+	color: #fff;
+}
+.receiptnav .top-button{
+	float:left;	
+}
+.receiptnav .right-button{
+	float:right;	
+}
+.close-btn{
+	cursor:pointer;
+}
+.order{
+	display:none;
+}
+.new-order{
+	display:table;
+	padding: 3px 2px;
+}
+.bill-action-block{
+	position:fixed;
+	bottom:0;
+	width:100%;
+	margin:0 -10px;
+	background:red;
+	padding:0px;
+	z-index:1000;
+}
+.bill-action-block div{
+	padding:0px;
+}
+.bill-action-block div span{
+	border-radius:0px;
+	padding:20px;
+}
+.close-btn{
+	font-size: 30px;
+position: absolute;
+margin-top: -10px;
+}
+.right-button{
+	position: absolute;
+	right: 17px;
+	margin-top: -28px;
+	font-size: 25px;
+}
+.btn-block{
+	padding: 20px;
+}
+
+
+
+
+input[type="checkbox"] { 
+	position: absolute;
+	opacity: 0;
+}
+
+/* Normal Track */
+input[type="checkbox"].ios-switch + div {
+	vertical-align: middle;
+	width: 40px;	height: 20px;
+	border-radius: 999px;
+	background-color: gray;
+	-webkit-transition-duration: .4s;
+	-webkit-transition-property: background-color, box-shadow;
+	margin: 10px 0px 0px 87px;
+}
+
+/* Checked Track (Blue) */
+input[type="checkbox"].ios-switch:checked + div {
+	width: 40px;
+	background-position: 0 0;
+	background-color: #3b89ec;
+}
+
+/* Tiny Track */
+input[type="checkbox"].tinyswitch.ios-switch + div {
+	width: 34px;	height: 18px;
+}
+
+/* Big Track */
+input[type="checkbox"].bigswitch.ios-switch + div {
+	width: 50px;	height: 25px;
+}
+
+/* Green Track */
+input[type="checkbox"].green.ios-switch:checked + div {
+	background-color: #00e359;
+}
+
+/* Normal Knob */
+input[type="checkbox"].ios-switch + div > div {
+	float: left;
+	width: 18px; height: 18px;
+	border-radius: inherit;
+	background: #ffffff;
+	-webkit-transition-timing-function: cubic-bezier(.54,1.85,.5,1);
+	-webkit-transition-duration: 0.4s;
+	-webkit-transition-property: transform, background-color, box-shadow;
+	-moz-transition-timing-function: cubic-bezier(.54,1.85,.5,1);
+	-moz-transition-duration: 0.4s;
+	-moz-transition-property: transform, background-color;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3), 0px 0px 0 1px rgba(0, 0, 0, 0.4);
+	pointer-events: none;
+	margin-top: 1px;
+	margin-left: 1px;
+}
+
+/* Checked Knob (Blue Style) */
+input[type="checkbox"].ios-switch:checked + div > div {
+	-webkit-transform: translate3d(20px, 0, 0);
+	-moz-transform: translate3d(20px, 0, 0);
+	background-color: #ffffff;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3), 0px 0px 0 1px rgba(8, 80, 172,1);
+}
+
+/* Tiny Knob */
+input[type="checkbox"].tinyswitch.ios-switch + div > div {
+	width: 16px; height: 16px;
+	margin-top: 1px;
+}
+
+/* Checked Tiny Knob (Blue Style) */
+input[type="checkbox"].tinyswitch.ios-switch:checked + div > div {
+	-webkit-transform: translate3d(16px, 0, 0);
+	-moz-transform: translate3d(16px, 0, 0);
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3), 0px 0px 0 1px rgba(8, 80, 172,1);
+}
+
+/* Big Knob */
+input[type="checkbox"].bigswitch.ios-switch + div > div {
+	width: 23px; height: 23px;
+	margin-top: 1px;
+}
+
+/* Checked Big Knob (Blue Style) */
+input[type="checkbox"].bigswitch.ios-switch:checked + div > div {
+	-webkit-transform: translate3d(25px, 0, 0);
+	-moz-transform: translate3d(16px, 0, 0);
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3), 0px 0px 0 1px rgba(8, 80, 172,1);
+}
+
+/* Green Knob */
+input[type="checkbox"].green.ios-switch:checked + div > div {
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(0, 162, 63,1);
+}
+.nav-item
+{
+	padding:5px;
+}
+.nav-item i{
+	position:absolute;
+	margin-top:10px;
+}
+.nav-item-child{
+	margin-left:5px;
+}
+.close-btn{
+	display:block;
+	width: 50px;
+}

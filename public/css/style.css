@@ -1,0 +1,99 @@
+body{
+	background-image:url("/public/img/bg.jpeg");
+	background-position:0;
+}
+.menu-container{
+	text-align:center;
+}
+.container {
+	background: url("/public/img/bg.jpeg");
+	background-position: 0px;
+}
+.header .logo {
+	float:none;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+}
+.page-title{
+	font-size:38px;
+	color:#51b345;
+	padding:20px;
+}
+.header .logo-img {
+	width:100%;
+}
+.Login-form{
+	padding:20px;
+	max-width:400px;
+	margin:0 auto;
+}
+.header{
+	border-bottom: 2px solid #63b846;
+	padding-bottom: 9px;
+}
+.form-control{
+	background:#a7a7a9;
+	color:#fff;
+	font-size:16px;
+}
+.form-control:focus{
+	background:#a7a7a9;
+	color:#fff;
+}
+
+*:-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #fff !important;
+	opacity:  1;
+}
+*:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #fff !important;;
+   opacity:  1;
+}
+*:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #fff !important;
+   opacity:  1;
+}
+*::-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #fff !important;
+   opacity:  1;
+}
+*::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #fff !important;
+	opacity:  1;
+}
+*::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #fff !important;;
+   opacity:  1;
+}
+.error{
+	color:red;
+}
+@media screen and (max-width: 991px){
+	.header{
+		border-bottom: 0px solid #63b846;
+		padding-bottom: 0px;
+	}
+	.page-title{
+		border-bottom: 1px solid #63b846;	
+		font-size:30px;
+	}
+	.container {
+		width:100%;
+		background: url("/public/img/bg.jpeg");
+		background-position: 0px;
+	}
+}
+.btn-bottom-fixed{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border-radius: 0px;
+}
+.top-button{
+	position: absolute;
+}
+.top-button a{
+	color: #667280;
+}
